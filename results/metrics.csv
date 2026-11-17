@@ -1,0 +1,6 @@
+model,RMSE,R2
+Baseline (mean),1.145,-0.0
+Linear regression,0.746,0.576
+"Train filtered, test full",0.921,0.353
+Linear + clipping (1%-99%),0.67,0.657
+Random Forest,0.505,0.805
