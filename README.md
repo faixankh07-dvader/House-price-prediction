@@ -23,7 +23,7 @@ A hands-on supervised learning project: predict median house value for Californi
 | Random Forest (non-linear reference) | 0.505 | 0.805 |
 
 RMSE is in units of $100k, so 0.746 means a typical error of about $75k.
-Run `python src/train.py` to regenerate the table (saved to `results/metrics.csv`) and fill in the Random Forest row.
+Run python src/train.py to regenerate the table (saved to results/metrics.csv).
 
 ## Key findings
 
@@ -44,7 +44,7 @@ Run `python src/train.py` to regenerate the table (saved to `results/metrics.csv
 - About 5% of rows have the house value capped at $500k, which hides true values.
 - Rows are census blocks, not individual houses.
 - One train/test split; cross-validation would give a more stable estimate.
-- Random Forest was not tuned or cross-validated
+- Random Forest was not tuned or cross-validated.
 
 ## How to run
 
